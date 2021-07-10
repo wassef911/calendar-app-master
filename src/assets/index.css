@@ -4,12 +4,25 @@ body,
   margin: 0;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+}
+.overflow {
+  overflow: hidden;
 }
 
 .bg-tasks {
   background: radial-gradient(rgb(219, 219, 219), rgb(255, 255, 255));
 }
+.task {
+  cursor: move;
+}
 
+.task:hover > button {
+  opacity: 1;
+}
+.task > button {
+  opacity: 0;
+}
 .Calendar {
   height: 100vh;
 }
