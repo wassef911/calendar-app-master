@@ -1,0 +1,32 @@
+html,
+body,
+#root {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-tasks {
+  background: radial-gradient(rgb(219, 219, 219), rgb(255, 255, 255));
+}
+
+.Calendar {
+  height: 100vh;
+}
+.time {
+  height: 80vh;
+}
+.time-text {
+  color: rgba(78, 78, 78, 0.541);
+}
+
+.task {
+  height: 8vh;
+  border-left: 10px solid transparent;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
+}
+
+.remove {
+  color: white;
+  transform: scale(0.6);
+}

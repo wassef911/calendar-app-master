@@ -1,0 +1,55 @@
+
+
+.container {
+	position: absolute;
+	width: 940px;
+	height: 500px;
+	padding: 50px 30px;
+}
+
+.note {
+	width: 66%;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: #FFFFFF;
+}
+
+.note button{
+    position: absolute;
+    height: 10%;
+    left: 90%;
+    top: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3C82F9;
+    border: #3C82F9;
+    margin: 2px 2px;
+    border-radius: 50%;
+}
+.note p {
+	position: absolute;
+    height: 10%;
+    left: 5%;
+    right: -0.53%;
+    top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    color: #243D6F;
+}
+
+.calendar {
+	position: absolute;
+	left: 65.74%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background-color: rgba(42, 46, 65, 0.7);
+ 
+}
